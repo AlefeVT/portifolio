@@ -6,9 +6,9 @@ import { WorkExperience } from "./components/pages/home/work-experience";
 export default async function Home() {
   return (
     <>
-      <HeroSection />
-      <HightLightedprojects />
+      <HeroSection /> 
       <KnownTechs />
+      <HightLightedprojects />
       <WorkExperience />
     </>
   )

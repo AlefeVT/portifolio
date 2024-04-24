@@ -1,8 +1,6 @@
-import { HiArrowNarrowRight } from "react-icons/hi"
 import { HorizontalDivider } from "../../../devider/horizontal"
-import { Link } from "../../../link"
 import { SectionTitle } from "../../../section-title"
-import { ProjectCard } from "./project-card"
+import { ProjectCard_SGC } from "./project-card/project-sgc"
 
 export const HightLightedprojects = () => {
     return (
@@ -11,18 +9,8 @@ export const HightLightedprojects = () => {
             <HorizontalDivider className="mb-16" />
 
             <div>
-                <ProjectCard />
+                <ProjectCard_SGC />
                 <HorizontalDivider className="my-16" />
-                <ProjectCard />
-                <HorizontalDivider className="my-16" />
-
-                <p className="flex items-center gap-1.5">
-                    <span className="text-gray-400">Se interessou?</span>
-                    <Link href="/projects" className="inline-flex">
-                        Ver todos
-                        <HiArrowNarrowRight />
-                    </Link>
-                </p>
             </div>
         </section>
     )

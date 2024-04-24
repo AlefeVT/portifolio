@@ -1,8 +1,9 @@
-import { Button } from "@/app/components/button";
+'use client'
+
 import { TechBadge } from "@/app/components/tech-badge";
-import Image from "next/image";
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { TbBrandGithub, TbBrandLinkedin, TbBrandGmail } from 'react-icons/tb'
+import { motion } from 'framer-motion'
 
 
 const MOCK_CONTACTS = [
@@ -20,11 +21,30 @@ const MOCK_CONTACTS = [
     },
 ]
 
+const techBadges = [
+    "Javascript",
+    "Typescript",
+    "PHP",
+    "SQL",
+    "Bootstrap",
+    "Tailwind",
+    "Next.js",
+    "React.js",
+    "Jquery",
+    "Nest.js"
+];
+
 export const HeroSection = () => {
     return (
-        <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[100px]">
+        <section className="w-full lg:h-[725px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[100px]">
             <div className="container flex items-start justify-center flex-col-reverse lg:flex-row">
-                <div className="w-full lg:max-w-[1140px]">
+                <motion.div
+                    className="w-full lg:max-w-[1140px]"
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -100 }}
+                    transition={{ duration: 0.5 }}
+                >
 
                     <h2 className="text-sm font-medium">OI, EU SOU ALEFE</h2>
                     <h1 className="text-7xl font-bold">FULL STACK DEVELOPER</h1>
@@ -37,22 +57,22 @@ export const HeroSection = () => {
                     </div>
 
                     <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[440px]">
-                        <TechBadge name="Javascript" />
-                        <TechBadge name="Typescript" />
-                        <TechBadge name="PHP" />
-                        <TechBadge name="SQL" />
-                        <TechBadge name="Bootstrap" />
-                        <TechBadge name="Tailwind" />
-                        <TechBadge name="Next.js" />
-                        <TechBadge name="React.js" />
-                        <TechBadge name="Jquery" />
-                        <TechBadge name="Nest.js" />
+                        {techBadges.map((tech, index) => (
+                            <TechBadge 
+                                key={index} 
+                                name={tech} 
+                                initial={{ opacity: 0, scale: 0 }} 
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0, scale: 0 }}
+                                transition={{ duration: 0.2, delay: index * 0.1 }}
+                            />
+                        ))}
                     </div>
 
                     <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
 
-                            Entre em contato
-                            <HiArrowNarrowRight size={18} />
+                        Entre em contato
+                        <HiArrowNarrowRight size={18} />
 
                         <div className="text-2xl text-gray-600 flex items-center h-20 gap-3">
                             {MOCK_CONTACTS.map((contact, index) => (
@@ -66,16 +86,8 @@ export const HeroSection = () => {
                             ))}
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
-
-                {/* <Image
-                    width={400}
-                    height={480}
-                    src="/images/profile_avt.jpg"
-                    alt="Foto de perfil de Alefe Viana Teixeira"
-                    className="w-[200px] h-[200px] lg:w-[320px] lg:h-[320px] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover"
-                /> */}
             </div>
         </section>
     )

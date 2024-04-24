@@ -1,27 +1,32 @@
 'use client'
+
 import Link from "next/link";
 import { NavItem } from "@/app/components/header/nav-item";
+import { motion } from 'framer-motion'
 
-import { particles } from '../../../particlesjs-config.json'
-
-const NAV_ITENS = [
+const NAV_ITEMS = [
     {
         label: 'Home',
         href: '/'
     },
-    {
-        label: 'Projetos',
-        href: '/projects'
-    },
+    // {
+    //     label: 'Projetos',
+    //     href: '/projects'
+    // },
     {
         label: 'Currículo',
-        href: '/curriculo.pdf'
+        href: '/curriculo-Alefe.pdf'
     }
-]
+];
 
 export const Header = () => {
     return (
-        <header className="absolute top-0 w-full z-10 h-24 flex items-center justify-center">
+        <motion.header 
+            className="absolute top-0 w-full z-10 h-24 flex items-center justify-center"
+            initial={{ top: -100 }}
+            animate={{ top: 0 }}
+            transition={{ duration: 0.5 }}
+        >
             <div className="container flex items-center justify-between">
                 <Link href="/">
                     {/* <Image
@@ -32,13 +37,11 @@ export const Header = () => {
                 </Link>
 
                 <nav className="flex items-center gap-4 sm:gap-10">
-                {NAV_ITENS.map(item => (
-                    <NavItem {...item}/>
-                ))}
-            </nav>
+                    {NAV_ITEMS.map(item => (
+                        <NavItem key={item.label} {...item}/>
+                    ))}
+                </nav>
             </div>
-
-
-        </header>
-    )
-}
+        </motion.header>
+    );
+};
