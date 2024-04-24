@@ -3,7 +3,7 @@ import './globals.css'
 import { ReactNode } from 'react'
 import { Header } from './components/header'
 import { ContactForm } from './components/contact-form'
-import { Footer } from "./components/footer";
+import { Footer } from "./components/footer"
 import { Toaster } from './components/toaster'
 
 const inter = Inter({ 

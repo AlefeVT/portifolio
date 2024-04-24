@@ -1,9 +1,7 @@
 'use client'
 
-import Image from "next/image";
-import { TechBadge } from "../../../../tech-badge";
-import { Link } from "../../../../link";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import Image from "next/image"
+import { TechBadge } from "../../../../tech-badge"
 import { motion } from 'framer-motion'
 
 const techBadges = [

@@ -1,6 +1,6 @@
 'use client'
 
-import { TechBadge } from "@/app/components/tech-badge";
+import { TechBadge } from "@/app/components/tech-badge"
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { TbBrandGithub, TbBrandLinkedin, TbBrandGmail } from 'react-icons/tb'
 import { motion } from 'framer-motion'

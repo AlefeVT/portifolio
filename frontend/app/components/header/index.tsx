@@ -1,7 +1,7 @@
 'use client'
 
-import Link from "next/link";
-import { NavItem } from "@/app/components/header/nav-item";
+import Link from "next/link"
+import { NavItem } from "@/app/components/header/nav-item"
 import { motion } from 'framer-motion'
 
 const NAV_ITEMS = [

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ComponentProps } from 'react';
+import { ComponentProps } from 'react'
 
 type TechBadgeProps = ComponentProps<typeof motion.span> &{
     name: string;

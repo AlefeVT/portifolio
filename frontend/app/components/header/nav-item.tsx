@@ -1,8 +1,8 @@
 'use client'
  
 import { usePathname } from 'next/navigation'
-import { cn } from "@/app/lib/utils";
-import Link from "next/link";
+import { cn } from "@/app/lib/utils"
+import Link from "next/link"
 
 
 type NavItemProps = {

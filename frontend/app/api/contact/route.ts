@@ -1,6 +1,6 @@
-import axios from 'axios';
-import { NextResponse } from "next/server";
-import { z } from "zod";
+import axios from 'axios'
+import { NextResponse } from "next/server"
+import { z } from "zod"
 
 const bodySchema = z.object({
     name: z.string(),

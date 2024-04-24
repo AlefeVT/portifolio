@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form"
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import axios from "axios"
-import toast from 'react-hot-toast';
+import toast from 'react-hot-toast'
 import { motion } from "framer-motion"
 
 const contactFormSchema = z.object({
