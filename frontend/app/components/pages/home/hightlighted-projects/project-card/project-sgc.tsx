@@ -1,7 +1,7 @@
 'use client'
 
-import Image from "next/image"
-import { TechBadge } from "../../../../tech-badge"
+import Image from 'next/image'
+import { TechBadge } from '../../../../tech-badge'
 import { motion } from 'framer-motion'
 
 const techBadges = [

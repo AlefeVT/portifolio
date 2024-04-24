@@ -1,9 +1,9 @@
 'use client'
 
-import { SectionTitle } from "@/app/components/section-title"
-import { ExperienceItem1 } from "./experience1-item"
-import { ExperienceItem2 } from "./experience2-item"
-import { motion } from "framer-motion"
+import { SectionTitle } from '@/app/components/section-title'
+import { ExperienceItem1 } from './experience1-item'
+import { ExperienceItem2 } from './experience2-item'
+import { motion } from 'framer-motion'
 
 export const WorkExperience = () => {
     return (

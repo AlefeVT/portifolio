@@ -1,5 +1,4 @@
-import Link from "next/link"
-import { ProjectCard } from "./project-card"
+import { ProjectCard } from './project-card'
 
 export const ProjectsList = () => {
     return (

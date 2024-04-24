@@ -1,6 +1,6 @@
-import { HorizontalDivider } from "../../../devider/horizontal"
-import { SectionTitle } from "../../../section-title"
-import { ProjectCard_SGC } from "./project-card/project-sgc"
+import { HorizontalDivider } from '../../../devider/horizontal'
+import { SectionTitle } from '../../../section-title'
+import { ProjectCard_SGC } from './project-card/project-sgc'
 
 export const HightLightedprojects = () => {
     return (

@@ -1,7 +1,7 @@
 'use client'
 
-import { TechBadge } from "@/app/components/tech-badge"
-import Image from "next/image"
+import { TechBadge } from '@/app/components/tech-badge'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 export const ExperienceItem1 = () => {

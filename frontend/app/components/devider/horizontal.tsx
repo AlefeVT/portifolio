@@ -1,4 +1,4 @@
-import { cn } from "@/app/lib/utils"
+import { cn } from '@/app/lib/utils'
 
 type HorizontalDividerProps = {
     className?: string;

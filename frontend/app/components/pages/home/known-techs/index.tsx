@@ -1,15 +1,15 @@
 'use client'
 
-import { SectionTitle } from "@/app/components/section-title"
-import { KnownTech } from "./known-tech"
-import { TbBrandNextjs } from "react-icons/tb"
-import { HorizontalDivider } from "@/app/components/devider/horizontal"
-import { IoLogoJavascript } from "react-icons/io5"
-import { SiTypescript } from "react-icons/si"
-import { FaPhp } from "react-icons/fa"
-import { BsFiletypeSql } from "react-icons/bs"
-import { FaReact } from "react-icons/fa"
-import { DiJqueryLogo } from "react-icons/di"
+import { SectionTitle } from '@/app/components/section-title'
+import { KnownTech } from './known-tech'
+import { TbBrandNextjs } from 'react-icons/tb'
+import { HorizontalDivider } from '@/app/components/devider/horizontal'
+import { IoLogoJavascript } from 'react-icons/io5'
+import { SiTypescript } from 'react-icons/si'
+import { FaPhp } from 'react-icons/fa'
+import { BsFiletypeSql } from 'react-icons/bs'
+import { FaReact } from 'react-icons/fa'
+import { DiJqueryLogo } from 'react-icons/di'
 import { motion } from 'framer-motion'
 
 export const KnownTechs = () => {
