@@ -44,7 +44,7 @@ export const ExperienceItem1 = () => {
             jan 2024 * O momento * (4 meses)
           </span>
           <p className="text-gray-400">
-            Colaboração no desenvolvimento do sistema Iconsortio, utilizando
+            Colaboração no desenvolvimento do sistema Iconsorcio, utilizando
             PHP. Contribuição em um projeto presente em mais de 17 estados do
             Brasil, proporcionando uma visão detalhada sobre trabalhar em um
             software robusto. Participação na criação de novos menus, manutenção

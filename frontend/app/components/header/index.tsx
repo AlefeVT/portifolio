@@ -4,21 +4,6 @@ import Link from 'next/link';
 import { NavItem } from '@/app/components/header/nav-item';
 import { motion } from 'framer-motion';
 
-const NAV_ITEMS = [
-  {
-    label: 'Home',
-    href: '/',
-  },
-  // {
-  //     label: 'Projetos',
-  //     href: '/projects'
-  // },
-  {
-    label: 'Currículo',
-    href: '/curriculo-Alefe.pdf',
-  },
-];
-
 export const Header = () => {
   return (
     <motion.header
@@ -37,9 +22,8 @@ export const Header = () => {
         </Link>
 
         <nav className="flex items-center gap-4 sm:gap-10">
-          {NAV_ITEMS.map((item) => (
-            <NavItem key={item.label} {...item} />
-          ))}
+        <NavItem label='Home' href='/' />
+        <NavItem label='Currículo' target="_blank" rel="noopener noreferrer" href='/curriculo-Alefe.pdf' />
         </nav>
       </div>
     </motion.header>

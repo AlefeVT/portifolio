@@ -15,7 +15,7 @@ const MOCK_CONTACTS = [
     icon: <TbBrandLinkedin />,
   },
   {
-    url: 'https://gmail.com.br',
+    url: 'https://mail.google.com/mail/?view=cm&fs=1&to=alefevt%40gmail.com',
     icon: <TbBrandGmail />,
   },
 ];

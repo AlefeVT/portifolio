@@ -7,9 +7,11 @@ import Link from 'next/link';
 type NavItemProps = {
   label: string;
   href: string;
+  target?: string;
+  rel?: string;
 };
 
-export const NavItem = ({ label, href }: NavItemProps) => {
+export const NavItem = ({ label, href, target, rel }: NavItemProps) => {
   const pathname = usePathname();
 
   const isActive = pathname === href;
@@ -21,6 +23,8 @@ export const NavItem = ({ label, href }: NavItemProps) => {
         'text-gray-400 flex items-center gap-2 font-medium font-mono',
         isActive && 'text-gray-50',
       )}
+      target={target}
+      rel={rel}      
     >
       <span className="text-emerald-400">#</span>
       {label}
