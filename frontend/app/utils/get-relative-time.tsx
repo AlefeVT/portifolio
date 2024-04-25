@@ -1,8 +1,6 @@
 // get-relative-time.ts
 
-export function getRelativeTimeString(
-  startDate: Date | string,
-): string {
+export function getRelativeTimeString(startDate: Date | string): string {
   const startDateTime =
     startDate instanceof Date ? startDate : new Date(startDate);
   const now = new Date();
