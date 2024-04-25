@@ -2,7 +2,6 @@
 
 export function getRelativeTimeString(
   startDate: Date | string,
-  locale: string,
 ): string {
   const startDateTime =
     startDate instanceof Date ? startDate : new Date(startDate);

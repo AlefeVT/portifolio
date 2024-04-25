@@ -77,6 +77,7 @@ export const HeroSection = () => {
                   href={contact.url}
                   key={`contact-${index}`}
                   target="_blank"
+                  rel="noreferrer"
                   className="hover:text-gray-100 transition-colors"
                 >
                   {contact.icon}

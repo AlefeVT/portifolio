@@ -34,6 +34,7 @@ export const ExperienceItem1 = () => {
           <a
             href="https://www.linkedin.com/company/sitconsistemas/mycompany/"
             target="_blank"
+            rel="noreferrer"
             className="text-gray-500 hover:text-emerald-500 transition-colors"
           >
             @Sitcon Tecnologia Da Informação

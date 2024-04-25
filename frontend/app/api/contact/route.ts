@@ -8,7 +8,11 @@ const bodySchema = z.object({
   message: z.string(),
 });
 
-const WEBHOOK_URL = process.env.WEBHOOK_URL!;
+const WEBHOOK_URL = process.env.WEBHOOK_URL ?? '';
+
+if (!WEBHOOK_URL) {
+  throw new Error('WEBHOOK_URL não está definido');
+}
 
 export async function POST(request: Request) {
   try {
