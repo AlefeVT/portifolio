@@ -22,8 +22,13 @@ export const Header = () => {
         </Link>
 
         <nav className="flex items-center gap-4 sm:gap-10">
-        <NavItem label='Home' href='/' />
-        <NavItem label='Currículo' target="_blank" rel="noopener noreferrer" href='/curriculo-Alefe.pdf' />
+          <NavItem label="Home" href="/" />
+          <NavItem
+            label="Currículo"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/curriculo-Alefe.pdf"
+          />
         </nav>
       </div>
     </motion.header>
