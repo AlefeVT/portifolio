@@ -1,66 +1,66 @@
 {
-    "NavBar": {
-        "a1": "About me",
-        "a2": "Experience",
-        "a3": "Projects",
-        "a4": "Skills",
-        "a5": "Contact"
-    },
-    "Hero": {
-        "p": "Hello, my name is",
-        "h2": "Alefe Viana",
-        "text": "I am a Full Stack developer from Brazil with over 1 year of experience. While I work across all layers of web development, I have a strong inclination towards front-end. I enjoy solving problems and am always open to new possibilities in the future. Let's build something amazing together!",
-        "button": "Contact me",
-        "rolar": "Scroll down"
-    },
-    "About": {
-        "title": "About me",
-        "description1": "My journey in the technology field began in 2016 when I graduated as an IT Technician from São Paulo State University (Unesp). In August 2019, I started my undergraduate studies in Information Systems at the Federal University of Uberlândia (UFU), and since then, I have been constantly striving to learn and deepen my knowledge in the field. ",
-        "description2": "Currently, I am a Full Stack Developer, and although I work across all layers of web development, I have a strong inclination towards Front-End development, always aiming to maintain a high standard of code quality.",
-        "description3": "In addition, I have experience in Traffic Management, Data Analysis, and Administrative Activities, areas in which I worked for over two years. I am always seeking new challenges and opportunities to learn and grow as a professional.",
-        "button": "Download CV"
-    },
-    "Projects": {
-        "title": "My Projects",
-        "description": "Check out some of the projects I have developed throughout my career as a developer below",
-        "p": "ALLS"
-    },
-    "Card": {
-        "name": "Project name",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aperiam a labore accusantium sed nisi impedit tempore, veritatis voluptatem eaque repellat qui quos voluptas ipsum similique in esse laboriosam fuga."
-    },
-    "Experience": {
-        "text": "Skills"
-    },
-    "Contact": {
-        "h1": "Contact Me",
-        "p": "Get in touch with me",
-        "subtitle1": "Talk to me",
-        "subtitle2": "Describe your interest"
-    },
-    "Footer": {
-        "p1": "2024 © Alefe Viana - All rights reserved.",
-        "p2": "Developed with Next, TailwindCSS, React Icons and Shadcn.ui"
-    },
-    "Form": {
-        "name": "Name",
-        "name-placeholder": "Your full name",
-        "email": "Email",
-        "email-placeholder": "Your best email",
-        "message": "Message",
-        "message-placeholder": "Write your message here...",
-        "button": "Send Message"
-    },
-    "Skills": {
-        "title": "Skills"
-    },
-    "EducationExperience": {
-        "title": "Qualifications",
-        "education": "Education",
-        "experience": "Experience",
-        "education-title": "Educational Experiences",
-        "education-description": "Here are some of my educational experiences where I gained knowledge and skills.",
-        "experience-title": "Professional Experiences",
-        "experience-description": "Here are some of my professional experiences. I am always open to new challenges and projects. Let's work together to create amazing solutions!"
-    }
+  "NavBar": {
+    "a1": "About me",
+    "a2": "Experience",
+    "a3": "Projects",
+    "a4": "Skills",
+    "a5": "Contact"
+  },
+  "Hero": {
+    "p": "Hello, my name is",
+    "h2": "Alefe Viana",
+    "text": "I am a Full Stack developer from Brazil with over 1 year of experience. While I work across all layers of web development, I have a strong inclination towards front-end. I enjoy solving problems and am always open to new possibilities in the future. Let's build something amazing together!",
+    "button": "Contact me",
+    "rolar": "Scroll down"
+  },
+  "About": {
+    "title": "About me",
+    "description1": "My journey in the technology field began in 2016 when I graduated as an IT Technician from São Paulo State University (Unesp). In August 2019, I started my undergraduate studies in Information Systems at the Federal University of Uberlândia (UFU), and since then, I have been constantly striving to learn and deepen my knowledge in the field. ",
+    "description2": "Currently, I am a Full Stack Developer, and although I work across all layers of web development, I have a strong inclination towards Front-End development, always aiming to maintain a high standard of code quality.",
+    "description3": "In addition, I have experience in Traffic Management, Data Analysis, and Administrative Activities, areas in which I worked for over two years. I am always seeking new challenges and opportunities to learn and grow as a professional.",
+    "button": "Download CV"
+  },
+  "Projects": {
+    "title": "My Projects",
+    "description": "Check out some of the projects I have developed throughout my career as a developer below",
+    "p": "ALLS"
+  },
+  "Card": {
+    "name": "Project name",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aperiam a labore accusantium sed nisi impedit tempore, veritatis voluptatem eaque repellat qui quos voluptas ipsum similique in esse laboriosam fuga."
+  },
+  "Experience": {
+    "text": "Skills"
+  },
+  "Contact": {
+    "h1": "Contact Me",
+    "p": "Get in touch with me",
+    "subtitle1": "Talk to me",
+    "subtitle2": "Describe your interest"
+  },
+  "Footer": {
+    "p1": "2024 © Alefe Viana - All rights reserved.",
+    "p2": "Developed with Next, TailwindCSS, React Icons and Shadcn.ui"
+  },
+  "Form": {
+    "name": "Name",
+    "name-placeholder": "Your full name",
+    "email": "Email",
+    "email-placeholder": "Your best email",
+    "message": "Message",
+    "message-placeholder": "Write your message here...",
+    "button": "Send Message"
+  },
+  "Skills": {
+    "title": "Skills"
+  },
+  "EducationExperience": {
+    "title": "Qualifications",
+    "education": "Education",
+    "experience": "Experience",
+    "education-title": "Educational Experiences",
+    "education-description": "Here are some of my educational experiences where I gained knowledge and skills.",
+    "experience-title": "Professional Experiences",
+    "experience-description": "Here are some of my professional experiences. I am always open to new challenges and projects. Let's work together to create amazing solutions!"
+  }
 }

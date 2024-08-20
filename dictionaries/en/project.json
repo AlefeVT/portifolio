@@ -1,131 +1,99 @@
 [
-    {
-        "image": "projects/TechVantage.JPG",
-        "title": "Tech Vantage - Corporate Website",
-        "description": "Final Project for Internet Programming developing a functional system with some requirements such as Form Registration and Data Printing",
-        "technologies": [
-            "PHP",
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap",
-            "MySQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/Programacao-para-Internet-1",
-        "deployUrl": "http://techvantage.infinityfreeapp.com/index.php",
-        "type": "fullstack"
-    },
-    {
-        "image": "projects/Coffee-LP.JPG",
-        "title": "Landing Page Meow Café",
-        "description": "Project proposed by Codante where the goal was to bring the Meow Café design to life by transforming it into a functional and responsive page without the use of frameworks.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/landing-page-meow-cafe",
-        "deployUrl": "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/Insove-LP.JPG",
-        "title": "Insove Medical Healthcare Landing Page",
-        "description": "Landing Page made using TailwindCSS designed for medical offices where the goal was to provide a good experience for doctors and patients.",
-        "technologies": [
-            "HTML",
-            "TailwindCSS",
-            "RemixIcon",
-            "SwiperJS",
-            "ScrollReveal"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/landing-page-insove-medical-healthcare",
-        "deployUrl": "https://insove-medical-healthcare.netlify.app/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/ListaDePaises.JPG",
-        "title": "Country List",
-        "description": "Project proposed by Codante where the goal was to use an API to obtain the data by making a responsive application that uses Server Components, Data fetching, Nested layouts, Routes and Loading.",
-        "technologies": [
-            "Next",
-            "TypeScript",
-            "TailwindCSS"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/mp-lista-de-paises-next",
-        "deployUrl": "https://mp-lista-de-paises-next-delta.vercel.app/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/Buscador.JPG",
-        "title": "Name Finder",
-        "description": "Final Project for Internet Programming where the goal was to create a name finder consuming an API on the backend, processing the data and displaying it on the frontend with a search history.",
-        "technologies": [
-            "React",
-            "Node",
-            "Express",
-            "MySQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/programacao-para-internet-2",
-        "deployUrl": "https://programacao-para-internet-2.vercel.app/",
-        "type": "fullstack"
-    },
-    {
-        "image": "projects/Dash.JPG",
-        "title": "Dashboard",
-        "description": "Dashboard with Login page, Registration, authentication, encryption, and a Dashboard",
-        "technologies": [
-            "React",
-            "Vite",
-            "Node",
-            "Express",
-            "MySQL",
-            "SASS",
-            "ReactHookForm",
-            "React-Icons",
-            "Yup.js"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/fullstack-auth-dash-client",
-        "deployUrl": "",
-        "type": "fullstack"
-    },
-    {
-        "image": "projects/GoogleKeep.JPG",
-        "title": "Google Keep Clone",
-        "description": "Google Keep clone proposed to be made without frameworks where you can take notes, pin notes, duplicate notes and export notes to a CSV file.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/Google-Keep-JS",
-        "deployUrl": "https://google-keep-js.vercel.app/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/NodeFastify.JPG",
-        "title": "API - Node Fastify",
-        "description": "API made with the goal of performing a CRUD using a relational database",
-        "technologies": [
-            "Node",
-            "Fastify",
-            "PostgreSQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
-        "deployUrl": "",
-        "type": "backend"
-    },
-    {
-        "image": "projects/FastAPI.JPG",
-        "title": "API - FastAPI",
-        "description": "API made with FastApi with the goal of building a robust and modularized API in Python which was reused in my Scientific Initiation",
-        "technologies": [
-            "Python",
-            "FastAPI",
-            "PostgreSQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
-        "deployUrl": "",
-        "type": "backend"
-    }
+  {
+    "image": "projects/TechVantage.JPG",
+    "title": "Tech Vantage - Corporate Website",
+    "description": "Final Project for Internet Programming developing a functional system with some requirements such as Form Registration and Data Printing",
+    "technologies": ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/Programacao-para-Internet-1",
+    "deployUrl": "http://techvantage.infinityfreeapp.com/index.php",
+    "type": "fullstack"
+  },
+  {
+    "image": "projects/Coffee-LP.JPG",
+    "title": "Landing Page Meow Café",
+    "description": "Project proposed by Codante where the goal was to bring the Meow Café design to life by transforming it into a functional and responsive page without the use of frameworks.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "githubUrl": "https://github.com/nathanmota-dev/landing-page-meow-cafe",
+    "deployUrl": "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/Insove-LP.JPG",
+    "title": "Insove Medical Healthcare Landing Page",
+    "description": "Landing Page made using TailwindCSS designed for medical offices where the goal was to provide a good experience for doctors and patients.",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "RemixIcon",
+      "SwiperJS",
+      "ScrollReveal"
+    ],
+    "githubUrl": "https://github.com/nathanmota-dev/landing-page-insove-medical-healthcare",
+    "deployUrl": "https://insove-medical-healthcare.netlify.app/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/ListaDePaises.JPG",
+    "title": "Country List",
+    "description": "Project proposed by Codante where the goal was to use an API to obtain the data by making a responsive application that uses Server Components, Data fetching, Nested layouts, Routes and Loading.",
+    "technologies": ["Next", "TypeScript", "TailwindCSS"],
+    "githubUrl": "https://github.com/nathanmota-dev/mp-lista-de-paises-next",
+    "deployUrl": "https://mp-lista-de-paises-next-delta.vercel.app/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/Buscador.JPG",
+    "title": "Name Finder",
+    "description": "Final Project for Internet Programming where the goal was to create a name finder consuming an API on the backend, processing the data and displaying it on the frontend with a search history.",
+    "technologies": ["React", "Node", "Express", "MySQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/programacao-para-internet-2",
+    "deployUrl": "https://programacao-para-internet-2.vercel.app/",
+    "type": "fullstack"
+  },
+  {
+    "image": "projects/Dash.JPG",
+    "title": "Dashboard",
+    "description": "Dashboard with Login page, Registration, authentication, encryption, and a Dashboard",
+    "technologies": [
+      "React",
+      "Vite",
+      "Node",
+      "Express",
+      "MySQL",
+      "SASS",
+      "ReactHookForm",
+      "React-Icons",
+      "Yup.js"
+    ],
+    "githubUrl": "https://github.com/nathanmota-dev/fullstack-auth-dash-client",
+    "deployUrl": "",
+    "type": "fullstack"
+  },
+  {
+    "image": "projects/GoogleKeep.JPG",
+    "title": "Google Keep Clone",
+    "description": "Google Keep clone proposed to be made without frameworks where you can take notes, pin notes, duplicate notes and export notes to a CSV file.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "githubUrl": "https://github.com/nathanmota-dev/Google-Keep-JS",
+    "deployUrl": "https://google-keep-js.vercel.app/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/NodeFastify.JPG",
+    "title": "API - Node Fastify",
+    "description": "API made with the goal of performing a CRUD using a relational database",
+    "technologies": ["Node", "Fastify", "PostgreSQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
+    "deployUrl": "",
+    "type": "backend"
+  },
+  {
+    "image": "projects/FastAPI.JPG",
+    "title": "API - FastAPI",
+    "description": "API made with FastApi with the goal of building a robust and modularized API in Python which was reused in my Scientific Initiation",
+    "technologies": ["Python", "FastAPI", "PostgreSQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
+    "deployUrl": "",
+    "type": "backend"
+  }
 ]
