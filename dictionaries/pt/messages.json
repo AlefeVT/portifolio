@@ -1,0 +1,66 @@
+{
+    "NavBar": {
+        "a1": "Sobre mim",
+        "a2": "Qualificações",
+        "a3": "Projetos",
+        "a4": "Habilidades",
+        "a5": "Contato"
+    },
+    "Hero": {
+        "p": "Olá, meu nome é",
+        "h2": "Alefe Viana",
+        "text": "...",
+        "button": "Entre em contato",
+        "rolar": "Rolar para baixo"
+    },
+    "About": {
+        "title": "Sobre mim",
+        "description1": "...",
+        "description2": "...",
+        "description3": "...",
+        "button": "Baixar CV"
+    },
+    "Projects": {
+        "title": "Meus Projetos",
+        "description": "Confira abaixo alguns projetos que desenvolvi na minha trajetória como desenvolvedor.",
+        "p": "TODOS"
+    },
+    "Card": {
+        "name": "Meus Projetos",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aperiam a labore accusantium sed nisi impedit tempore, veritatis voluptatem eaque repellat qui quos voluptas ipsum similique in esse laboriosam fuga."
+    },
+    "Experience": {
+        "text": "Competências"
+    },
+    "Contact": {
+        "h1": "Contate-me",
+        "p": "Entre em contato comigo",
+        "subtitle1": "Fale comigo",
+        "subtitle2": "Descreva seu interesse"
+    },
+    "Footer": {
+        "p1": "2024 © Alefe Viana - Todos os direitos Reservados.",
+        "p2": "Desenvolvido com Next, TailwindCSS, React Icons e Shadcn.ui"
+    },
+    "Form": {
+        "name": "Nome",
+        "name-placeholder": "Seu nome completo",
+        "email": "E-mail",
+        "email-placeholder": "Seu melhor e-mail",
+        "message": "Mensagem",
+        "message-placeholder": "Escreva sua mensagem aqui...",
+        "button": "Enviar Mensagem"
+    },
+    "Skills": {
+        "title": "Habilidades"
+    },
+    "EducationExperience": {
+        "title": "Qualificações",
+        "education": "Educação",
+        "experience": "Experiência",
+        "education-title": "Experiências Educacionais",
+        "education-description": "Aqui estão algumas das minhas experiências educacionais, onde adquiri conhecimento e habilidades.",
+        "experience-title": "Experiências Profissionais",
+        "experience-description": "Aqui estão algumas das minhas experiências profissionais. Estou sempre aberto a novos desafios e projetos. Vamos trabalhar juntos para criar soluções incríveis!"    
+    }
+}
