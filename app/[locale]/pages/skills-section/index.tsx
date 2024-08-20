@@ -29,30 +29,30 @@ import { TechBadge } from './skillsBadge';
 import { useTranslations } from 'next-intl';
 
 const frontEndSkills = [
-  { name: 'HTML5', Icon: FaHtml5, bgColor: 'bg-red-500' },
-  { name: 'CSS3', Icon: FaCss3Alt, bgColor: 'bg-blue-500' },
-  { name: 'JAVASCRIPT', Icon: FaJs, bgColor: 'bg-yellow-500' },
-  { name: 'TYPESCRIPT', Icon: SiTypescript, bgColor: 'bg-blue-600' },
-  { name: 'REACT', Icon: FaReact, bgColor: 'bg-blue-400' },
-  { name: 'NEXT.JS', Icon: SiNextdotjs, bgColor: 'bg-gray-900' },
-  { name: 'TAILWIND CSS', Icon: SiTailwindcss, bgColor: 'bg-teal-500' },
-  { name: 'BOOTSTRAP', Icon: SiBootstrap, bgColor: 'bg-purple-600' },
-  { name: 'REDUX', Icon: SiRedux, bgColor: 'bg-purple-700' },
-  { name: 'SHADCN/UI', Icon: SiShadcnui, bgColor: 'bg-black' },
+  { name: 'HTML5', Icon: FaHtml5, bgColor: 'bg-cyan-800' },
+  { name: 'CSS3', Icon: FaCss3Alt, bgColor: 'bg-cyan-800' },
+  { name: 'JAVASCRIPT', Icon: FaJs, bgColor: 'bg-cyan-800' },
+  { name: 'TYPESCRIPT', Icon: SiTypescript, bgColor: 'bg-cyan-800' },
+  { name: 'REACT', Icon: FaReact, bgColor: 'bg-cyan-800' },
+  { name: 'NEXT.JS', Icon: SiNextdotjs, bgColor: 'bg-cyan-800' },
+  { name: 'TAILWIND CSS', Icon: SiTailwindcss, bgColor: 'bg-cyan-800' },
+  { name: 'BOOTSTRAP', Icon: SiBootstrap, bgColor: 'bg-cyan-800' },
+  { name: 'REDUX', Icon: SiRedux, bgColor: 'bg-cyan-800' },
+  { name: 'SHADCN/UI', Icon: SiShadcnui, bgColor: 'bg-cyan-800' },
 ];
 
 const backEndSkills = [
-  { name: 'NODE.JS', Icon: FaNodeJs, bgColor: 'bg-green-600' },
-  { name: 'JAVASCRIPT', Icon: FaJs, bgColor: 'bg-yellow-500' },
-  { name: 'TYPESCRIPT', Icon: SiTypescript, bgColor: 'bg-blue-600' },
-  { name: 'EXPRESS.JS', Icon: SiExpress, bgColor: 'bg-gray-800' },
-  { name: 'MYSQL', Icon: SiMysql, bgColor: 'bg-blue-700' },
-  { name: 'POSTGRESQL', Icon: SiPostgresql, bgColor: 'bg-blue-600' },
-  { name: 'MONGODB', Icon: SiMongodb, bgColor: 'bg-green-600' },
-  { name: 'PRISMA', Icon: SiPrisma, bgColor: 'bg-blue-900' },
-  { name: 'DOCKER', Icon: FaDocker, bgColor: 'bg-blue-500' },
-  { name: 'PHP', Icon: FaPhp, bgColor: 'bg-purple-700' },
-  { name: 'PYTHON', Icon: FaPython, bgColor: 'bg-yellow-500' },
+  { name: 'NODE.JS', Icon: FaNodeJs, bgColor: 'bg-cyan-800' },
+  { name: 'JAVASCRIPT', Icon: FaJs, bgColor: 'bg-cyan-800' },
+  { name: 'TYPESCRIPT', Icon: SiTypescript, bgColor: 'bg-cyan-800' },
+  { name: 'EXPRESS.JS', Icon: SiExpress, bgColor: 'bg-cyan-800' },
+  { name: 'MYSQL', Icon: SiMysql, bgColor: 'bg-cyan-800' },
+  { name: 'POSTGRESQL', Icon: SiPostgresql, bgColor: 'bg-cyan-800' },
+  { name: 'MONGODB', Icon: SiMongodb, bgColor: 'bg-cyan-800' },
+  { name: 'PRISMA', Icon: SiPrisma, bgColor: 'bg-cyan-800' },
+  { name: 'DOCKER', Icon: FaDocker, bgColor: 'bg-cyan-800' },
+  { name: 'PHP', Icon: FaPhp, bgColor: 'bg-cyan-800' },
+  { name: 'PYTHON', Icon: FaPython, bgColor: 'bg-cyan-800' },
 ];
 
 export const SkillsSection = () => {

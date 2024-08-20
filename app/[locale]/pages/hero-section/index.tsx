@@ -50,8 +50,8 @@ export default function HeroSection() {
             <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px] justify-center lg:justify-start">
               <TechBadge name="JavaScript" />
               <TechBadge name="TypeScript" />
-              <TechBadge name="ReactJs" />
-              <TechBadge name="NodeJs" />
+              <TechBadge name="React" />
+              <TechBadge name="Node.js" />
               <TechBadge name="Express" />
               <TechBadge name="Next.js" />
             </div>
@@ -83,7 +83,7 @@ export default function HeroSection() {
             height={404}
             src="/images/profile2.jpeg"
             alt="Foto de perfil de Alefe Viana"
-            className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-full shadow-2xl object-cover mt-6 sm:mt-0 filter brightness-75"
+            className="w-[100px] h-[100px] lg:w-[320px] lg:h-[304px] mb-6 lg:mb-0 rounded-xl shadow-2xl object-cover mt-6 sm:mt-0 filter brightness-75"
           />
         </div>
       </section>
