@@ -1,0 +1,21 @@
+[
+    {
+        "logo": "/education/logoWorkana.png",
+        "institution": "Workana",
+        "course": "Freelancer Front-End",
+        "date": "out 2023 - presente",
+        "description": "Implementação de novas features e realização de interfaces do zero.",
+        "link": "https://www.linkedin.com/company/workana/",
+        "technologies": [
+            "React",
+            "Node",
+            "Express",
+            "Tailwind",
+            "StyledComponents",
+            "MySQL",
+            "MongoDB",
+            "PostgreSQL",
+            "Prisma"
+        ]
+    }
+]

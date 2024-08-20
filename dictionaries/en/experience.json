@@ -1,0 +1,66 @@
+[
+    {
+        "logo": "/education/logoWorkana.png",
+        "institution": "Workana",
+        "course": "Freelance Front-End Developer",
+        "date": "Oct 2023 - present",
+        "description": "Implementation of new features and creation of interfaces from scratch.",
+        "link": "https://www.linkedin.com/company/workana/",
+        "technologies": [
+            "React",
+            "Node",
+            "Express",
+            "Tailwind",
+            "StyledComponents",
+            "MySQL",
+            "MongoDB",
+            "PostgreSQL",
+            "Prisma"
+        ]
+    },
+    {
+        "logo": "/education/logoUFU.png",
+        "institution": "UFU",
+        "course": "Web Programming Tutor",
+        "date": "Jun 2023 - Dec 2023",
+        "description": "Tutoring in the Internet Programming course, assisting students with questions and grading exercises.",
+        "link": "",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    {
+        "logo": "/education/logoTecMob.png",
+        "institution": "TecMob",
+        "course": "Traffic Manager - E-commerce",
+        "date": "Dec 2020 - May 2022",
+        "description": "Management of high-impact advertising campaigns on platforms such as Facebook Ads and Google Ads, as well as sales strategies and administrative routine.",
+        "link": "",
+        "technologies": [
+            "Facebook Ads",
+            "Google Ads",
+            "Tiktok Ads",
+            "Excel",
+            "Google Analytics",
+            "Google Tag Manager"
+        ]
+    },
+    {
+        "logo": "/education/logoCorreios.png",
+        "institution": "Correios",
+        "course": "Administrative Assistant - Young Apprentice",
+        "date": "Nov 2015 - Nov 2016",
+        "description": "Administrative routine such as organizing documents, customer service, managing correspondence, creating spreadsheets, and public service.",
+        "link": "https://www.linkedin.com/company/correios/",
+        "technologies": [
+            "Excel",
+            "Word",
+            "PowerPoint",
+            "Senai"
+        ]
+    }
+]

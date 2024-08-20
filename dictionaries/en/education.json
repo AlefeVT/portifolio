@@ -1,0 +1,52 @@
+[
+    {
+        "logo": "/education/logoUFU.png",
+        "institution": "Federal University of Uberlândia - Monte Carmelo",
+        "course": "Information Systems",
+        "date": "Aug 2019 - present",
+        "description": "Learning in software development at all stages, databases, software modeling and engineering, artificial intelligence, among others.",
+        "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+        "technologies": [
+            "C",
+            "Java",
+            "PHP",
+            "Python",
+            "JavaScript",
+            "Node",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "PostgreSQL",
+            "Mysql",
+            "MongoDB"
+        ]
+    },
+    {
+        "logo": "/education/react.svg",
+        "institution": "Luiz Otávio Miranda and Matheus Fraga",
+        "course": "React.Js and Next.js",
+        "date": "Aug 2023 - Feb 2024",
+        "description": "Interface development with React, Next, and Node on the Backend",
+        "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+        "technologies": [
+            "React",
+            "Next",
+            "Node",
+            "JavaScript",
+            "TypeScript"
+        ]
+    },
+    {
+        "logo": "/education/logoUnesp.png",
+        "institution": "São Paulo State University Júlio de Mesquita Filho",
+        "course": "Computer Technician",
+        "date": "Jan 2015 - Dec 2016",
+        "description": "Development of Desktop and Web systems, Computer Networks",
+        "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+        "technologies": [
+            "Java",
+            "HTML",
+            "CSS"
+        ]
+    }
+]
