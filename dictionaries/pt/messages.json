@@ -9,15 +9,15 @@
   "Hero": {
     "p": "Olá, meu nome é",
     "h2": "Alefe Viana",
-    "text": "...",
+    "text": "Sou desenvolvedor Full Stack com mais de um ano de experiência profissional e interessado por projetos desafiadores e inovadores. Sempre em busca de aprender algo novo, trazendo soluções criativas, escaláveis e eficientes.",
     "button": "Entre em contato",
     "rolar": "Rolar para baixo"
   },
   "About": {
     "title": "Sobre mim",
-    "description1": "...",
-    "description2": "...",
-    "description3": "...",
+    "description1": "Minha jornada na área de tecnologia começou em 2021, quando comecei a realizar cursos e desenvolver projetos para aprimorar meu aprendizado. Em agosto de 2022, iniciei minha graduação em Sistemas de Informação pela Centro Universitário Católica do Leste de Minas Gerais (UNILESTE) e, desde então, tenho buscado constantemente aprender e aprofundar meus conhecimentos na área.",
+    "description2": "Atualmente sou Desenvolvedor Full Stack, e apesar de atuar em todas as camadas do desenvolvimento web, tenho uma forte inclinação para o desenvolvimento Front-End, sempre visando manter um alto padrão de qualidade de código.",
+    "description3": "Além disso, tenho experiência em Backend, Análise de Dados e Atividades Administrativas, áreas nas quais atuei por mais de dois anos. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como profissional.",
     "button": "Baixar CV"
   },
   "Projects": {

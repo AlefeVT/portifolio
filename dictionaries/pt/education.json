@@ -1,11 +1,11 @@
 [
   {
-    "logo": "/education/logoUFU.png",
-    "institution": "Universidade Federal de Uberlândia - Monte Carmelo",
+    "logo": "/education/logo_unileste.jpeg",
+    "institution": "Centro Universitário do Leste de Minas Gerais - Unileste",
     "course": "Sistemas de Informação",
-    "date": "ago 2019 - presente",
+    "date": "ago 2022 - presente",
     "description": "Aprendizado no desenvolvimento de software em todas as etapas, banco de dados, modelagem e engenharia de software, inteligência artificial, entre outros.",
-    "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
+    "link": "https://unileste.catolica.edu.br/portal/",
     "technologies": [
       "C",
       "Java",
@@ -20,23 +20,5 @@
       "Mysql",
       "MongoDB"
     ]
-  },
-  {
-    "logo": "/education/react.svg",
-    "institution": "Luiz Otávio Miranda e Matheus Fraga",
-    "course": "React.Js e Next.js",
-    "date": "ago 2023 - fev 2024",
-    "description": "Desenvolvimento de interfaces com React, Next e Node no Backend",
-    "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-    "technologies": ["React", "Next", "Node", "JavaScript", "TypeScript"]
-  },
-  {
-    "logo": "/education/logoUnesp.png",
-    "institution": "Universidade Estadual Paulista Júlio de Mesquita Filho",
-    "course": "Técnico em Informática",
-    "date": "jan 2015 - dez 2016",
-    "description": "Desenvolvimento de sistemas Desktop E Web, Redes de Computadores",
-    "link": "https://facom.ufu.br/graduacao/sistemas-de-informacao-campus-monte-carmelo",
-    "technologies": ["Java", "HTML", "CSS"]
   }
 ]
