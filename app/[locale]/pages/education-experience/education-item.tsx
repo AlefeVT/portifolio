@@ -43,7 +43,7 @@ export const EducationItem = ({
           <a
             href={link}
             target="_blank"
-            className=" text-gray-600 dark:text-gray-500 hover:text-emerald-500 transition-colors"
+            className=" text-gray-600 dark:text-gray-500 hover:text-cyan-500 transition-colors"
           >
             @{institution}
           </a>

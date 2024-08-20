@@ -39,7 +39,7 @@ export default function HeroSection() {
       <section className="bg-white dark:bg-black w-full h-auto sm:h-[82vh] flex flex-col justify-center items-center pb-6 sm:pb:0 pt-20 sm:pt-0">
         <div className="container flex items-center justify-between flex-col-reverse lg:flex-row mx-auto px-4">
           <div className="w-full lg:max-w-[530px] text-center lg:text-left">
-            <p className="font-mono text-emerald-600 dark:text-emerald-400">
+            <p className="font-mono text-cyan-600 dark:text-cyan-400">
               {t('p')}
             </p>
             <h2 className="text-4xl font-medium mt-2">{t('h2')}</h2>
@@ -70,7 +70,7 @@ export default function HeroSection() {
                     href={contact.url}
                     target="_blank"
                     key={`contact-${index}`}
-                    className="text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    className="text-gray-800 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
                   >
                     {contact.icon}
                   </a>
@@ -87,7 +87,7 @@ export default function HeroSection() {
           />
         </div>
       </section>
-      <div className="h-auto sm:h-[10vh] pb-6 sm:pb-0 bg-white dark:bg-black w-full sm:text-2xl flex justify-center items-center gap-3 font-bold text-gray-800 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+      <div className="h-auto sm:h-[10vh] pb-6 sm:pb-0 bg-white dark:bg-black w-full sm:text-2xl flex justify-center items-center gap-3 font-bold text-gray-800 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">
         <a className="flex gap-x-2" href="#about-section">
           <BiMouse className="animate-bounce" />
           <h2 className="sm:text-lg">{t('rolar')}</h2>

@@ -56,7 +56,7 @@ export default function Navbar() {
               <div className="flex items-center space-x-8">
                 <a href="/">
                   <h1 className="text-black dark:text-white font-extrabold tracking-tight uppercase">
-                    <span className="bg-gradient-to-r font-sans font-extrabold from-green-500 to-teal-600 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r font-sans font-extrabold from-blue-500 to-cyan-600 bg-clip-text text-transparent">
                       AVT
                     </span>
                   </h1>

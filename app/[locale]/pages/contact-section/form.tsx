@@ -61,7 +61,7 @@ export const FormSection = () => {
         <Label className="self-start">{t('name')}</Label>
         <Input
           type="text"
-          className="bg-gray-200/70 dark:bg-gray-800/85 focus-visible:ring-emerald-500"
+          className="bg-gray-200/70 dark:bg-gray-800/85 focus-visible:ring-cyan-500"
           placeholder={t('name-placeholder')}
           {...register('name')}
         />
@@ -69,14 +69,14 @@ export const FormSection = () => {
         <Label className="self-start">{t('email')}</Label>
         <Input
           type="email"
-          className="bg-gray-200/70 dark:bg-gray-800/85 focus-visible:ring-emerald-500"
+          className="bg-gray-200/70 dark:bg-gray-800/85 focus-visible:ring-cyan-500"
           placeholder={t('email-placeholder')}
           {...register('email')}
         />
 
         <Label className="self-start">{t('message')}</Label>
         <Textarea
-          className="bg-gray-200/70 dark:bg-gray-800/85 size-48 w-full focus-visible:ring-emerald-500"
+          className="bg-gray-200/70 dark:bg-gray-800/85 size-48 w-full focus-visible:ring-cyan-500"
           placeholder={t('message-placeholder')}
           maxLength={500}
           {...register('message')}
