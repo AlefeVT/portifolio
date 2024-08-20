@@ -1,147 +1,115 @@
 [
-    {
-        "image": "projects/TechVantage.JPG",
-        "title": "Tech Vantage - Site Corporativo",
-        "description": "Projeto Final Programação para Internet desenvolvendo um sistema funcional com alguns requisitos como Cadastro de Formulário e Impressão de Dados",
-        "technologies": [
-            "PHP",
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap",
-            "MySQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/Programacao-para-Internet-1",
-        "deployUrl": "http://techvantage.infinityfreeapp.com/index.php",
-        "type": "fullstack"
-    },
-    {
-        "image": "projects/Coffee-LP.JPG",
-        "title": "Landing Page Meow Café",
-        "description": "Projeto proposto pela Codante onde o objetivo foi dar a vida ao design do Meow Café transformando-o em uma página funcional e responsiva sem o uso de frameworks.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/landing-page-meow-cafe",
-        "deployUrl": "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/Insove-LP.JPG",
-        "title": "Landing Page Insove Medical Healthcare",
-        "description": "Landing Page feita utilizando TailwindCSS projetada para consultórios médicos onde o objetivo foi proporcionar uma boa experiência para médicos e pacientes.",
-        "technologies": [
-            "HTML",
-            "TailwindCSS",
-            "RemixIcon",
-            "SwiperJS",
-            "ScrollReveal"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/landing-page-insove-medical-healthcare",
-        "deployUrl": "https://insove-medical-healthcare.netlify.app/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/ListaDePaises.JPG",
-        "title": "Lista de Países",
-        "description": "Projeto proposto pela Codante onde o objetivo foi utilizar uma API para objter os dados fazendo uma aplicação reponsiva que use Server Components, Data fetching, Nested layouts, Routes e Loading",
-        "technologies": [
-            "Next",
-            "TypeScript",
-            "TailwindCSS"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/mp-lista-de-paises-next",
-        "deployUrl": "https://mp-lista-de-paises-next-delta.vercel.app/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/Buscador.JPG",
-        "title": "Buscador de Nomes",
-        "description": "Projeto Final de Programação para Internet onde o objetivo foi criar um buscador de nomes consumindo uma API no backend, tratando os dados e exibindo no frontend com um histórico de consultas.",
-        "technologies": [
-            "React",
-            "Node",
-            "Express",
-            "MySQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/programacao-para-internet-2",
-        "deployUrl": "https://programacao-para-internet-2.vercel.app/",
-        "type": "fullstack"
-    },
-    {
-        "image": "projects/Dash.JPG",
-        "title": "Dashboard",
-        "description": "Dashboard com página de Login, Cadastro, autenticação, criptografia e um DashBoard",
-        "technologies": [
-            "React",
-            "Vite",
-            "Node",
-            "Express",
-            "MySQL",
-            "SASS",
-            "ReactHookForm",
-            "React-Icons",
-            "Yup.js"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/fullstack-auth-dash-client",
-        "deployUrl": "",
-        "type": "fullstack"
-    },
-    {
-        "image": "projects/GoogleKeep.JPG",
-        "title": "Google Keep Clone",
-        "description": "Clone do Google Keep proposto a ser realizado sem frameworks onde permite que você faça anotações, fixe notas, duplique notas e exporte as notas para um arquivo CSV.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/Google-Keep-JS",
-        "deployUrl": "https://google-keep-js.vercel.app/",
-        "type": "frontend"
-    },
-    {
-        "image": "projects/NodeFastify.JPG",
-        "title": "API - Node Fastify",
-        "description": "API feita com o objetivo de realizar um CRUD utilizando um banco de dados relacional",
-        "technologies": [
-            "Node",
-            "Fastify",
-            "PostgreSQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
-        "deployUrl": "",
-        "type": "backend"
-    },
-    {
-        "image": "projects/FastAPI.JPG",
-        "title": "API - FastAPI",
-        "description": "API feita com FastApi com o objetivo de construir uma API roubusta e modularizada em Python onde utilizei foi reaproveitada na minha Iniciação Científica",
-        "technologies": [
-            "Python",
-            "FastAPI",
-            "PostgreSQL"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
-        "deployUrl": "",
-        "type": "backend"
-    },
-    {
-        "image": "projects/Todo.jpg",
-        "title": "Todo List - MERN Stack",
-        "description": "POC - Todo List feito com o objetivo de realizar as 4 operações de um CRUD utilizando um banco de dados não relacional, e também foi feito a realização de um Sistema de Login Completo",
-        "technologies": [
-            "MongoDB",
-            "Express",
-            "React",
-            "Node",
-            "Styled-Components",
-            "Vite"
-        ],
-        "githubUrl": "https://github.com/nathanmota-dev/todo-list-mern-stack",
-        "deployUrl": "https://todo-list-mern-stack.vercel.app/",
-        "type": "fullstack"
-    }
+  {
+    "image": "projects/TechVantage.JPG",
+    "title": "Tech Vantage - Site Corporativo",
+    "description": "Projeto Final Programação para Internet desenvolvendo um sistema funcional com alguns requisitos como Cadastro de Formulário e Impressão de Dados",
+    "technologies": ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/Programacao-para-Internet-1",
+    "deployUrl": "http://techvantage.infinityfreeapp.com/index.php",
+    "type": "fullstack"
+  },
+  {
+    "image": "projects/Coffee-LP.JPG",
+    "title": "Landing Page Meow Café",
+    "description": "Projeto proposto pela Codante onde o objetivo foi dar a vida ao design do Meow Café transformando-o em uma página funcional e responsiva sem o uso de frameworks.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "githubUrl": "https://github.com/nathanmota-dev/landing-page-meow-cafe",
+    "deployUrl": "https://nathanmota-dev.github.io/landing-page-meow-cafe/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/Insove-LP.JPG",
+    "title": "Landing Page Insove Medical Healthcare",
+    "description": "Landing Page feita utilizando TailwindCSS projetada para consultórios médicos onde o objetivo foi proporcionar uma boa experiência para médicos e pacientes.",
+    "technologies": [
+      "HTML",
+      "TailwindCSS",
+      "RemixIcon",
+      "SwiperJS",
+      "ScrollReveal"
+    ],
+    "githubUrl": "https://github.com/nathanmota-dev/landing-page-insove-medical-healthcare",
+    "deployUrl": "https://insove-medical-healthcare.netlify.app/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/ListaDePaises.JPG",
+    "title": "Lista de Países",
+    "description": "Projeto proposto pela Codante onde o objetivo foi utilizar uma API para objter os dados fazendo uma aplicação reponsiva que use Server Components, Data fetching, Nested layouts, Routes e Loading",
+    "technologies": ["Next", "TypeScript", "TailwindCSS"],
+    "githubUrl": "https://github.com/nathanmota-dev/mp-lista-de-paises-next",
+    "deployUrl": "https://mp-lista-de-paises-next-delta.vercel.app/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/Buscador.JPG",
+    "title": "Buscador de Nomes",
+    "description": "Projeto Final de Programação para Internet onde o objetivo foi criar um buscador de nomes consumindo uma API no backend, tratando os dados e exibindo no frontend com um histórico de consultas.",
+    "technologies": ["React", "Node", "Express", "MySQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/programacao-para-internet-2",
+    "deployUrl": "https://programacao-para-internet-2.vercel.app/",
+    "type": "fullstack"
+  },
+  {
+    "image": "projects/Dash.JPG",
+    "title": "Dashboard",
+    "description": "Dashboard com página de Login, Cadastro, autenticação, criptografia e um DashBoard",
+    "technologies": [
+      "React",
+      "Vite",
+      "Node",
+      "Express",
+      "MySQL",
+      "SASS",
+      "ReactHookForm",
+      "React-Icons",
+      "Yup.js"
+    ],
+    "githubUrl": "https://github.com/nathanmota-dev/fullstack-auth-dash-client",
+    "deployUrl": "",
+    "type": "fullstack"
+  },
+  {
+    "image": "projects/GoogleKeep.JPG",
+    "title": "Google Keep Clone",
+    "description": "Clone do Google Keep proposto a ser realizado sem frameworks onde permite que você faça anotações, fixe notas, duplique notas e exporte as notas para um arquivo CSV.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "githubUrl": "https://github.com/nathanmota-dev/Google-Keep-JS",
+    "deployUrl": "https://google-keep-js.vercel.app/",
+    "type": "frontend"
+  },
+  {
+    "image": "projects/NodeFastify.JPG",
+    "title": "API - Node Fastify",
+    "description": "API feita com o objetivo de realizar um CRUD utilizando um banco de dados relacional",
+    "technologies": ["Node", "Fastify", "PostgreSQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
+    "deployUrl": "",
+    "type": "backend"
+  },
+  {
+    "image": "projects/FastAPI.JPG",
+    "title": "API - FastAPI",
+    "description": "API feita com FastApi com o objetivo de construir uma API roubusta e modularizada em Python onde utilizei foi reaproveitada na minha Iniciação Científica",
+    "technologies": ["Python", "FastAPI", "PostgreSQL"],
+    "githubUrl": "https://github.com/nathanmota-dev/node-com-fastify",
+    "deployUrl": "",
+    "type": "backend"
+  },
+  {
+    "image": "projects/Todo.jpg",
+    "title": "Todo List - MERN Stack",
+    "description": "POC - Todo List feito com o objetivo de realizar as 4 operações de um CRUD utilizando um banco de dados não relacional, e também foi feito a realização de um Sistema de Login Completo",
+    "technologies": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+      "Styled-Components",
+      "Vite"
+    ],
+    "githubUrl": "https://github.com/nathanmota-dev/todo-list-mern-stack",
+    "deployUrl": "https://todo-list-mern-stack.vercel.app/",
+    "type": "fullstack"
+  }
 ]
