@@ -35,13 +35,7 @@ const frontEndSkills = [
   { name: 'TYPESCRIPT', Icon: SiTypescript, bgColor: 'bg-blue-600' },
   { name: 'REACT', Icon: FaReact, bgColor: 'bg-blue-400' },
   { name: 'NEXT.JS', Icon: SiNextdotjs, bgColor: 'bg-gray-900' },
-  {
-    name: 'STYLED-COMPONENTS',
-    Icon: SiStyledcomponents,
-    bgColor: 'bg-pink-500',
-  },
   { name: 'TAILWIND CSS', Icon: SiTailwindcss, bgColor: 'bg-teal-500' },
-  { name: 'SASS', Icon: SiSass, bgColor: 'bg-pink-600' },
   { name: 'BOOTSTRAP', Icon: SiBootstrap, bgColor: 'bg-purple-600' },
   { name: 'REDUX', Icon: SiRedux, bgColor: 'bg-purple-700' },
   { name: 'SHADCN/UI', Icon: SiShadcnui, bgColor: 'bg-black' },
@@ -52,7 +46,6 @@ const backEndSkills = [
   { name: 'JAVASCRIPT', Icon: FaJs, bgColor: 'bg-yellow-500' },
   { name: 'TYPESCRIPT', Icon: SiTypescript, bgColor: 'bg-blue-600' },
   { name: 'EXPRESS.JS', Icon: SiExpress, bgColor: 'bg-gray-800' },
-  { name: 'FASTIFY', Icon: SiFastify, bgColor: 'bg-gray-700' },
   { name: 'MYSQL', Icon: SiMysql, bgColor: 'bg-blue-700' },
   { name: 'POSTGRESQL', Icon: SiPostgresql, bgColor: 'bg-blue-600' },
   { name: 'MONGODB', Icon: SiMongodb, bgColor: 'bg-green-600' },
@@ -60,7 +53,6 @@ const backEndSkills = [
   { name: 'DOCKER', Icon: FaDocker, bgColor: 'bg-blue-500' },
   { name: 'PHP', Icon: FaPhp, bgColor: 'bg-purple-700' },
   { name: 'PYTHON', Icon: FaPython, bgColor: 'bg-yellow-500' },
-  { name: 'FASTAPI', Icon: SiFastapi, bgColor: 'bg-green-500' },
 ];
 
 export const SkillsSection = () => {

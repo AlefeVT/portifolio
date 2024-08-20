@@ -14,25 +14,25 @@ export const ProjectsSection = () => {
       <p className="pt-6">{t('description')}</p>
       <div className="sm:text-lg text-sm mt-8 space-x-0.5">
         <button
-          className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all rounded-l-3xl"
+          className="bg-cyan-400 text-white cursor-pointer border-none p-2 hover:bg-cyan-600 transition-all rounded-l-3xl"
           onClick={() => setFilter('fullstack')}
         >
           FULLSTACK
         </button>
         <button
-          className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all"
+          className="bg-cyan-400 text-white cursor-pointer border-none p-2 hover:bg-cyan-600 transition-all"
           onClick={() => setFilter('frontend')}
         >
           FRONTEND
         </button>
         <button
-          className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all"
+          className="bg-cyan-400 text-white cursor-pointer border-none p-2 hover:bg-cyan-600 transition-all"
           onClick={() => setFilter('backend')}
         >
           BACKEND
         </button>
         <button
-          className="bg-emerald-400 text-white cursor-pointer border-none p-2 hover:bg-emerald-600 transition-all rounded-e-3xl"
+          className="bg-cyan-400 text-white cursor-pointer border-none p-2 hover:bg-cyan-600 transition-all rounded-e-3xl"
           onClick={() => setFilter('')}
         >
           {t('p')}
