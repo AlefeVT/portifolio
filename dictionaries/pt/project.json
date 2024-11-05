@@ -2,10 +2,10 @@
   {
     "image": "projects/expenseX.jpeg",
     "title": "ExpenseX - Sistema de controle financeiro",
-    "description": "Projeto Final Programação para Internet desenvolvendo um sistema funcional com alguns requisitos como Cadastro de Formulário e Impressão de Dados",
-    "technologies": ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "MySQL"],
-    "githubUrl": "https://github.com/nathanmota-dev/Programacao-para-Internet-1",
-    "deployUrl": "http://techvantage.infinityfreeapp.com/index.php",
+    "description": "Desenvolvido para facilitar a organização e o controle das finanças pessoais. ",
+    "technologies": ["Next.js 14", "Shadcn UI", "Tailwind css", "Prisma"],
+    "githubUrl": "https://github.com/AlefeVT/ExpenseX",
+    "deployUrl": "https://expense-x.vercel.app",
     "type": "fullstack"
   }
 ]

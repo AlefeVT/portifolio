@@ -56,21 +56,21 @@ export const EducationExperience = () => {
   }, [locale]);
 
   return (
-    <div className="w-full bg-white dark:bg-black lg:pt-6 pb-8">
+    <div className="w-full lg:pt-6 pb-8">
       <div className="text-center pb-10">
         <h1 className="text-2xl md:text-3xl font-bold">{t('title')}</h1>
       </div>
       <div className="container md:py-4 flex justify-center gap-4">
         <button
           onClick={() => setActiveTab('education')}
-          className={`flex text-xl gap-x-2 bg-white dark:bg-black py-2 px-4 ${activeTab === 'education' ? 'text-cyan-700 dark:text-cyan-400' : 'text-black dark:text-white'} rounded-md`}
+          className={`flex text-xl gap-x-2 py-2 px-4 ${activeTab === 'education' ? 'text-cyan-700 dark:text-cyan-400' : 'text-black dark:text-white'} rounded-md`}
         >
           <FaGraduationCap className="text-xl md:text-2xl" />
           {t('education')}
         </button>
         <button
           onClick={() => setActiveTab('experience')}
-          className={`flex text-xl gap-x-2 bg-white dark:bg-black py-2 px-4 ${activeTab === 'experience' ? 'text-cyan-700 dark:text-cyan-400' : 'text-black dark:text-white'} rounded-md p-3`}
+          className={`flex text-xl gap-x-2 py-2 px-4 ${activeTab === 'experience' ? 'text-cyan-700 dark:text-cyan-400' : 'text-black dark:text-white'} rounded-md p-3`}
         >
           <MdOutlineWorkHistory className="text-xl md:text-2xl" />
           {t('experience')}

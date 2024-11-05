@@ -32,7 +32,7 @@ export const ContactSection = () => {
   const t = useTranslations('Contact');
 
   return (
-    <div className="w-full h-auto bg-white dark:bg-black justify-center text-center pb-20 md:pt-10 pt-6">
+    <div className="w-full h-auto justify-center text-center pb-20 md:pt-10 pt-6">
       <div className="w-full">
         <h1 className=" text-black dark:text-white text-2xl md:text-3xl font-bold p-4">
           {t('h1')}
