@@ -59,7 +59,7 @@ export const SkillsSection = () => {
   const t = useTranslations('Skills');
 
   return (
-    <div className="bg-white dark:bg-black w-full h-auto lg:h-[32rem] text-center pt-10">
+    <div className="w-full h-auto lg:h-[32rem] text-center pt-10">
       <h1 className="text-2xl lg:text-3xl font-bold pb-4 lg:pb-0">
         {t('title')}
       </h1>
